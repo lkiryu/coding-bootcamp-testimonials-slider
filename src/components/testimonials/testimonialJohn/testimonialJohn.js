@@ -4,7 +4,7 @@ import profilePicture from '../../../images/image-john.jpg'
 
 const TestimonialJohn = () => {
     return (
-        <div className="testimonial selected">
+        <div className="testimonial">
             <div className="testimonial">
                 <p className="comment">“ If you want to lay the best foundation possible I’d recommend taking this course.
                     The depth the instructors go into is incredible. I now feel so confident about
