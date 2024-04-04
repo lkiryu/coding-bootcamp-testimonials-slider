@@ -1,10 +1,12 @@
 import React from "react";
-import TestimonialsTanya from "../testimonials/testimonialsTanya/testimonialsTanya";
+import TestimonialTanya from "../testimonials/testimonialTanya/testimonialTanya";
+import TestimonialJohn from "../testimonials/testimonialJohn/testimonialJohn";
 
 const TestimonialsSlider = () => {
     return(
         <main className="container">
-            <TestimonialsTanya />
+            <TestimonialTanya />
+            <TestimonialJohn />
         </main>
     )
 }
