@@ -2,10 +2,12 @@ import React from "react";
 import Buttons from "../../buttons/buttons";
 import profilePicture from '../../../images/image-tanya.jpg'
 
+import '../testimonials.css'
+
 const TestimonialTanya = () => {
     return (
         <div className="testimonial selected">
-            <div className="testimonial">
+            <div className="info">
                 <p className="comment">“ I’ve been interested in coding for a while but never taken the jump, until now.
                     I couldn’t recommend this course enough. I’m now in the job of my dreams and so
                     excited about the future. ”</p>

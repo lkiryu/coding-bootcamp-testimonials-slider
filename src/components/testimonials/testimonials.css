@@ -1,0 +1,45 @@
+.testimonial{
+    display: none;
+}
+
+.testimonial.selected{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    background-image: url(../../images/pattern-bg.svg), url(../../images/pattern-quotes.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 0, 20% 25%;
+    padding: 70px;
+}
+
+.info{
+    width: 650px;
+    transform: translateX(70px);
+}
+
+.info .comment{
+    color: hsl(240, 38%, 20%);
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.info .user-info{
+    display: flex;
+    gap: 10px;
+}
+
+.user-info .username{
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(240, 38%, 20%);
+}
+
+.user-info .role{
+    font-size: 20px;
+    color: hsl(240, 18%, 77%);
+}
+
+.picture-and-buttons img{
+    border-radius: 10px;
+}
