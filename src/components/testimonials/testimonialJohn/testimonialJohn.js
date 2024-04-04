@@ -1,4 +1,5 @@
 import React from "react";
+import Buttons from "../../buttons/buttons";
 import profilePicture from '../../../images/image-john.jpg'
 
 const TestimonialJohn = () => {
@@ -15,10 +16,7 @@ const TestimonialJohn = () => {
             </div>
             <div className="picture-and-buttons">
                 <img src={profilePicture} alt="profile illustration" className="profile picture"></img>
-                <div className="buttons">
-                    <i className="fa-solid fa-chevron-left"></i>
-                    <i className="fa-solid fa-chevron-right"></i>
-                </div>
+                <Buttons />
             </div>
         </div>
     )

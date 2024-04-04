@@ -6,6 +6,7 @@ const TestimonialsSlider = () => {
     return(
         <main className="container">
             <TestimonialTanya />
+            
             <TestimonialJohn />
         </main>
     )
