@@ -24,3 +24,9 @@ body{
     background-repeat: no-repeat;
     background-position: 0% 100%;
 }
+
+@media(max-width:800px){
+    .container{
+        height: 100%;
+    }
+}

@@ -20,3 +20,15 @@
 .buttons i:hover{
     color: hsl(240, 38%, 20%);
 }
+
+@media(max-width:800px){
+    .buttons{
+        transform: translateY(-30px) translateX(150px);
+    }
+}
+
+@media(max-width:500px){
+    .buttons{
+        transform: translateY(-30px) translateX(100px);
+    }
+}

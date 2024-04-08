@@ -43,3 +43,59 @@
 .picture-and-buttons img{
     border-radius: 10px;
 }
+
+@media(max-width:1440px){
+    .testimonial.selected{
+        width: 90vw;
+    }
+}
+
+@media(max-width:1200px){
+    .testimonial.selected{
+        background-size: 60% 85%, auto ;
+    }
+
+    .info{
+        width: 400px;
+    }
+
+    .info .comment{
+        font-size: 24px;
+    }
+
+    .picture-and-buttons img{
+        width: 400px;
+    }
+}
+
+@media(max-width:800px){
+    .testimonial.selected{
+        flex-direction: column-reverse;
+        background-position: 50% 10%, 50% 67%;
+        background-size: 80% 56%, 100px 50px;
+        padding: 80px;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(0);
+    }
+
+    .info .comment{
+        text-align: center;
+    }
+}
+
+@media(max-width:500px){
+    .testimonial.selected{
+        background-position: 50% 10%, 50% 55%;
+        background-size: 100% 45%, 100px 50px;
+    }
+
+    .picture-and-buttons img, .info{
+        width: 300px;
+    }
+}
